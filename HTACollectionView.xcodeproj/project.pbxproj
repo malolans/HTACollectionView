@@ -21,6 +21,7 @@
 		2ACC9D8118DCEDB400178C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACC9D6318DCEDB300178C91 /* UIKit.framework */; };
 		2ACC9D8918DCEDB400178C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC9D8718DCEDB400178C91 /* InfoPlist.strings */; };
 		2ACC9D8B18DCEDB400178C91 /* HTACollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC9D8A18DCEDB400178C91 /* HTACollectionViewTests.m */; };
+		2ACC9D9618DCF34700178C91 /* HTACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC9D9518DCF34700178C91 /* HTACollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2ACC9D8618DCEDB400178C91 /* HTACollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTACollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		2ACC9D8818DCEDB400178C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2ACC9D8A18DCEDB400178C91 /* HTACollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTACollectionViewTests.m; sourceTree = "<group>"; };
+		2ACC9D9418DCF34700178C91 /* HTACollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTACollectionViewCell.h; sourceTree = "<group>"; };
+		2ACC9D9518DCF34700178C91 /* HTACollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTACollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2ACC9D7118DCEDB300178C91 /* Main.storyboard */,
 				2ACC9D7418DCEDB300178C91 /* HTAViewController.h */,
 				2ACC9D7518DCEDB300178C91 /* HTAViewController.m */,
+				2ACC9D9418DCF34700178C91 /* HTACollectionViewCell.h */,
+				2ACC9D9518DCF34700178C91 /* HTACollectionViewCell.m */,
 				2ACC9D7718DCEDB300178C91 /* Images.xcassets */,
 				2ACC9D6618DCEDB300178C91 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				2ACC9D7018DCEDB300178C91 /* HTAAppDelegate.m in Sources */,
 				2ACC9D7618DCEDB300178C91 /* HTAViewController.m in Sources */,
+				2ACC9D9618DCF34700178C91 /* HTACollectionViewCell.m in Sources */,
 				2ACC9D6C18DCEDB300178C91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				2ACC9D9018DCEDB400178C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ACC9D9118DCEDB400178C91 /* Build configuration list for PBXNativeTarget "HTACollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				2ACC9D9318DCEDB400178C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
